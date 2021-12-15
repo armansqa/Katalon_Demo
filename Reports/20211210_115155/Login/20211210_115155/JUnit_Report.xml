@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="38.478" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="38.478" skipped="0" timestamp="2021-12-10 11:52:07" hostname="armanqa - armans-air.dlink" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/armanqa/Katalon Studio/Demo_Project/Reports/20211210_115155/Login/20211210_115155"/>
+         <property name="logFiles" value="/Users/armanqa/Katalon Studio/Demo_Project/Reports/20211210_115155/Login/20211210_115155/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="armanqa - armans-air.dlink"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.93"/>
+         <property name="hostAddress" value="192.168.0.186"/>
+         <property name="sessionId" value="d25a4b46557d2986e2bf5ab730627467"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login_valid_id_pass" time="38.042" classname="Test Cases/Login_valid_id_pass" status="PASSED">
+         <system-out><![CDATA[2021-12-10 11:52:08 - [TEST_CASE][PASSED] - Test Cases/Login_valid_id_pass: Test Cases/Login_valid_id_pass
+
+2021-12-10 11:52:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-10 11:52:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-10 11:52:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-10 11:52:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-10 11:52:34 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.opencart.com/"): Navigate to 'https://demo.opencart.com/' successfully
+
+2021-12-10 11:52:38 - [MESSAGE][PASSED] - Navigate to 'https://demo.opencart.com/' successfully
+
+2021-12-10 11:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_or/Page_Your Store/span_My Account_caret_1")): Object: 'Object Repository/Login_or/Page_Your Store/span_My Account_caret_1' is clicked on
+
+2021-12-10 11:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_or/Page_Your Store/span_My Account_caret_1' is clicked on
+
+2021-12-10 11:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_or/Page_Your Store/a_Login")): Object: 'Object Repository/Login_or/Page_Your Store/a_Login' is clicked on
+
+2021-12-10 11:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_or/Page_Your Store/a_Login' is clicked on
+
+2021-12-10 11:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_or/Page_Account Login/input_E-Mail Address_email"), "xyz@arman.com"): Text 'xyz@arman.com' is set on object 'Object Repository/Login_or/Page_Account Login/input_E-Mail Address_email'
+
+2021-12-10 11:52:42 - [MESSAGE][PASSED] - Text 'xyz@arman.com' is set on object 'Object Repository/Login_or/Page_Account Login/input_E-Mail Address_email'
+
+2021-12-10 11:52:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login_or/Page_Account Login/input_Password_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Login_or/Page_Account Login/input_Password_password'
+
+2021-12-10 11:52:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_or/Page_Account Login/input_Password_password'
+
+2021-12-10 11:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Login_or/Page_Account Login/input_Forgotten Password_btn btn-primary")): Object: 'Object Repository/Login_or/Page_Account Login/input_Forgotten Password_btn btn-primary' is clicked on
+
+2021-12-10 11:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_or/Page_Account Login/input_Forgotten Password_btn btn-primary' is clicked on
+
+2021-12-10 11:52:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login_or/Page_My Account/h2_My Account"), "My Account", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Login_or/Page_My Account/h2_My Account' are matched.
+
+2021-12-10 11:52:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_or/Page_My Account/h2_My Account' are matched.
+
+2021-12-10 11:52:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-10 11:52:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-10 11:52:07 - [TEST_SUITE][PASSED] - Login: Test Cases/Login_valid_id_pass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

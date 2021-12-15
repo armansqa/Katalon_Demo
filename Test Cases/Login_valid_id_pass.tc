@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_valid_id_pass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eea0c5b9-2963-4223-aaae-33b1bc7dbb1b</testCaseGuid>
+</TestCaseEntity>

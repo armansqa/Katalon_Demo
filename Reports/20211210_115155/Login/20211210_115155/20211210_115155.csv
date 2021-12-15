@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 96.0.4664.93,,,2021-12-10 11:52:07,2021-12-10 11:52:46,38.478s,PASSED
+,,,,,,,
+Test Cases/Login_valid_id_pass,Chrome 96.0.4664.93,,,2021-12-10 11:52:08,2021-12-10 11:52:46,38.042s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-10 11:52:08,2021-12-10 11:52:34,26.112s,PASSED
+"navigateToUrl(""https://demo.opencart.com/"")",Chrome 96.0.4664.93,,,2021-12-10 11:52:34,2021-12-10 11:52:38,3.801s,PASSED
+"click(findTestObject(""Object Repository/Login_or/Page_Your Store/span_My Account_caret_1""))",Chrome 96.0.4664.93,,,2021-12-10 11:52:38,2021-12-10 11:52:39,0.745s,PASSED
+"click(findTestObject(""Object Repository/Login_or/Page_Your Store/a_Login""))",Chrome 96.0.4664.93,,,2021-12-10 11:52:39,2021-12-10 11:52:41,1.883s,PASSED
+"setText(findTestObject(""Object Repository/Login_or/Page_Account Login/input_E-Mail Address_email""), ""xyz@arman.com"")",Chrome 96.0.4664.93,,,2021-12-10 11:52:41,2021-12-10 11:52:42,1.020s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_or/Page_Account Login/input_Password_password""), ""4nvbrPglk7k="")",Chrome 96.0.4664.93,,,2021-12-10 11:52:42,2021-12-10 11:52:42,0.602s,PASSED
+"click(findTestObject(""Login_or/Page_Account Login/input_Forgotten Password_btn btn-primary""))",Chrome 96.0.4664.93,,,2021-12-10 11:52:42,2021-12-10 11:52:45,2.918s,PASSED
+"verifyElementText(findTestObject(""Login_or/Page_My Account/h2_My Account""), ""My Account"", STOP_ON_FAILURE)",Chrome 96.0.4664.93,,,2021-12-10 11:52:45,2021-12-10 11:52:46,0.502s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-10 11:52:46,2021-12-10 11:52:46,0.103s,PASSED
